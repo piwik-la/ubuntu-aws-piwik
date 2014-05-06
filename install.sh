@@ -15,6 +15,8 @@ sudo apt-get install nginx
 
 #Install Piwik
 sudo apt-get install piwik
+chown -R www-data:www-data /usr/share/piwik
+chmod -R 0755 /usr/share/piwik
 
 #Install MySQL
 sudo apt-get install mysql-server
