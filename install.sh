@@ -34,6 +34,9 @@ sudo ln -s /usr/share/phpmyadmin/ /usr/share/piwik/dba
 sudo apt-get install php5-geoip php5-dev libgeoip-dev
 sudo pecl install geoip
 
+#LOAD DATA INFILE
+apt-get install php5-mysqlnd
+
 #Restart Service
 sudo service php5-fpm restart
 sudo service nginx restart
