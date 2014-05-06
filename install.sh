@@ -18,6 +18,9 @@ sudo apt-get install piwik
 chown -R www-data:www-data /usr/share/piwik
 chmod -R 0755 /usr/share/piwik
 
+#Install PHP 
+sudo apt-get install php5-fpm php5-mysql
+
 #Install MySQL
 sudo apt-get install mysql-server
 sudo mysql_install_db
@@ -26,9 +29,6 @@ sudo mysql_secure_installation
 #Install phpMyAdmin
 apt-get install phpmyadmin
 sudo ln -s /usr/share/phpmyadmin/ /usr/share/piwik/dba
-
-#Install PHP 
-sudo apt-get install php5-fpm php5-mysql
 
 #Install PECL
 sudo apt-get install php5-geoip php5-dev libgeoip-dev
