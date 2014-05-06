@@ -1,3 +1,10 @@
 ubuntu-aws-piwik
 ================
-shell for aws ubuntu 14.04 to install piwik with debian package
+Shell for EC2 Ubuntu 14.04 LTS to install piwik,nginx,php5-fpm,MySQL,phpmyadmin with debian official package
+
+installation guide
+==================
+
+wget https://raw2.github.com/piwikla/ubuntu-aws-piwik/master/install.sh
+
+sh install.sh
